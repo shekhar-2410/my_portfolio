@@ -1,0 +1,17 @@
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Move up 10px */
+    }
+    100% {
+      transform: translateY(0); /* Back to original position */
+    }
+  }
+  
+  .image-animation {
+    animation: upDown 2s infinite; /* Animation lasts for 2 seconds and repeats infinitely */
+  }
+
+  

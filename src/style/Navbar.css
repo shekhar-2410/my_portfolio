@@ -1,0 +1,11 @@
+.button_style {
+  border: 1px solid white;
+  color: white;
+  transition: all 0.3s ease;
+  background: none;
+}
+
+.button_style:hover {
+  transform: "scale(1.1)";
+  color: "#5EB5FD";
+}
