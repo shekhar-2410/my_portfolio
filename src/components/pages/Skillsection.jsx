@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import {
   Box,
@@ -78,7 +79,7 @@ const Skillsection = () => {
   };
 
   return (
-    <Box width={"100%"} mx="auto" mt={{ base: "-12%", md: 0 }}>
+    <Box id="skills" width={"100%"} mx="auto" mt={{ base: "-12%", md: 0 }}>
       {/* skillset */}
       <Box  maxWidth="1200px" mx="auto" p={6} my={{ base: 0, md: 12 }}>
         <Heading as="h2" size="xl" textAlign="center" mb={4} color="#fff">

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import {
   Box,
@@ -9,12 +10,12 @@ import {
   HStack,
   IconButton,
 } from "@chakra-ui/react";
-import analytical from "../../assets/analytical.png";
-import bioorganic from "../../assets/biooragnic.png";
-import skyshare from "../../assets/skyhare.png";
+import analytical from "../../assets/analytical.jpg";
+import bioorganic from "../../assets/biooragnic.jpg";
+import skyshare from "../../assets/skyhare.jpg";
 import microfrontend from "../../assets/microf.png";
 import locater from "../../assets/locater.png";
-import movie from "../../assets/movie.jpg";
+import movie from "../../assets/movie.png";
 import { FaSquareGithub } from "react-icons/fa6";
 
 const projects = [
@@ -131,11 +132,17 @@ const projects = [
 
 const Projectsection = () => {
   return (
-    <Box maxWidth="1200px" mx="auto" p={6}>
+    <Box id="projects" maxWidth="1200px" mx="auto" p={6}>
       <Heading as="h2" size="xl" textAlign="center" mb={2} color="#fff">
         My Recent Work
       </Heading>
-      <Text Text fontSize={{ base: "16px", md: "18px" }} textAlign="center" mb={8} color={"#fff"}>
+      <Text
+        Text
+        fontSize={{ base: "16px", md: "18px" }}
+        textAlign="center"
+        mb={8}
+        color={"#fff"}
+      >
         Here are some of the projects I have worked on.
       </Text>
 
@@ -187,18 +194,20 @@ const Projectsection = () => {
                 </Heading>
 
                 {project.isLink && (
-                  <a href={project.git} target="_blank" rel="noopener noreferrer">
-                  <IconButton
-                    _hover={{ bg: "transparent",border:"none" }}
-                    background={"transparent"}
-                    aria-label="Open in new tab"
-                    icon={<FaSquareGithub color="white" size={21} />}
-                  />
-                </a>
+                  <a
+                    href={project.git}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <IconButton
+                      _hover={{ bg: "transparent", border: "none" }}
+                      background={"transparent"}
+                      aria-label="Open in new tab"
+                      icon={<FaSquareGithub color="white" size={21} />}
+                    />
+                  </a>
                 )}
               </HStack>
-
-             
 
               {/* Project Description */}
               <Text color="white" fontSize={"14px"} textAlign="center" mb={2}>
@@ -206,9 +215,9 @@ const Projectsection = () => {
               </Text>
 
               {/* Technologies Used */}
-              <Box  mb={2}>
+              <Box mb={2}>
                 {project.technology.map((tech, i) => (
-                  <Badge key={i} fontSize={"10px"} colorScheme="teal" mr={1} >
+                  <Badge key={i} fontSize={"10px"} colorScheme="teal" mr={1}>
                     {tech}
                   </Badge>
                 ))}

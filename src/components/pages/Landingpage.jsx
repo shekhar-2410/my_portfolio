@@ -1,10 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Layout from "../layout";
 import { Box} from "@chakra-ui/react";
 import { Aboutsection } from "./Aboutsection";
 import Skillsection from "./Skillsection";
 import Projectsection from "./Projectsection";
-import GetintouchSection from "./GetintouchSection";
 import banner from "../../assets/banner-bg.png";
 const Landingpage = () => {
   const sectionMarginY = "50px"; 
@@ -27,9 +27,7 @@ const Landingpage = () => {
           <Box mb={sectionMarginY}>
             <Projectsection />
           </Box>
-          <Box >
-            <GetintouchSection />
-          </Box>
+          
         </Box>
       </Layout>
     </Box>

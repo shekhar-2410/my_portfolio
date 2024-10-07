@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Box, Text, Heading, Image } from "@chakra-ui/react";
 import { TypeAnimation } from "react-type-animation"; // Named import
