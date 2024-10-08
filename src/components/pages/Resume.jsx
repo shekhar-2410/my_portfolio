@@ -19,10 +19,10 @@ const Resume = () => {
           mx={"auto"}
           bg={"white"}
           borderRadius={"md"}
-          p={8}
+          p={{base:4,md:6}}
           boxShadow={"lg"}
-          mt={{ base: "14%", md: "12%", lg: "5%" }}
-          mb={{ base: "5%", md: "2%" }}
+          mt={{ base: "18%", md: "12%", lg: "5%" }}
+          mb={{ base: "0%", md: "2%" }}
         >
           <Flex justifyContent={"space-between"} alignItems={"center"}>
             <Box>

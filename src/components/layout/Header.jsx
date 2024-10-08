@@ -55,7 +55,9 @@ const Header = () => {
         py={6}
         px={{ base: 6, md: 14 }}
       >
-       <Image src="/logo.svg" alt="logo" width="42px"/>
+        <RouterLink to="/">
+          <Image src="/logo.svg" alt="logo" width="42px" />
+        </RouterLink>
 
         <Stack
           direction="row"
@@ -162,7 +164,7 @@ const Header = () => {
           </a>
 
           <a
-          href="https://www.behance.net/shekharsuman7"
+            href="https://www.behance.net/shekharsuman7"
             target="_blank"
             rel="noopener noreferrer"
           >
