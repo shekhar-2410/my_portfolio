@@ -130,13 +130,13 @@ const Skillsection = () => {
                 >
                   <Box
                     position="relative"
-                    width={{ base: "120px", md: "170px" }}
+                    width={{ base: "140px", md: "170px" }}
                     mx="auto"
                   >
                     <Image
                       src={skill.image}
                       alt={skill.name}
-                      boxSize={{ base: "120px", md: "170px" }}
+                      boxSize={{ base: "140px", md: "170px" }}
                       objectFit="cover"
                     />
                     <Box
@@ -150,11 +150,12 @@ const Skillsection = () => {
                       alignItems="center"
                       color="#AA367C"
                       textAlign="center"
+                      px={'5px'}
                      
                     >
                       <VStack>
                         <Text
-                          fontSize={{ base: "18px", md: "21px" }}
+                          fontSize={{ base: "17px", md: "21px" }}
                           fontWeight="bold"
                         >
                           {skill.name}
