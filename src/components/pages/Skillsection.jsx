@@ -43,7 +43,7 @@ const tool = [
   { name: "Sonarqube", icon: <SiSonarqube size={40} />, colorScheme: "blue" },
   { name: "Jira", icon: <FaJira size={40} />, colorScheme: "teal" },
   { name: "Eslint", icon: <SiEslint size={40} />, colorScheme: "red" },
-  { name: "Formic", icon: <SiFormik size={40} />, colorScheme: "cyan" },
+  { name: "Formik", icon: <SiFormik size={40} />, colorScheme: "cyan" },
   {
     name: "Redux Tool Kit",
     icon: <SiRedux size={40} />,
@@ -148,22 +148,23 @@ const Skillsection = () => {
                       display="flex"
                       justifyContent="center"
                       alignItems="center"
-                      color="#fff"
+                      color="#AA367C"
                       textAlign="center"
+                     
                     >
                       <VStack>
                         <Text
-                          fontSize={{ base: "14px", md: "16px" }}
+                          fontSize={{ base: "18px", md: "21px" }}
                           fontWeight="bold"
                         >
                           {skill.name}
                         </Text>
-                        <Text
+                        {/* <Text
                           fontWeight="bold"
                           fontSize={{ base: "14px", md: "16px" }}
                         >
                           {skill.percent}
-                        </Text>
+                        </Text> */}
                       </VStack>
                     </Box>
                   </Box>

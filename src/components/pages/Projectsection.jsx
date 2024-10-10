@@ -20,10 +20,10 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 const projects = [
   {
-    name: "SkyShare",
+    name: "Cargo Transportation System",
     role: "Software Engineer",
     description:
-      "SkyShare is a PaaS product integrating various stages of cargo transportation in the airline industry, enabling data aggregation for targeted marketing.",
+      "Cargo Transportation System is a PaaS product integrating various stages of cargo transportation in the airline industry, enabling data aggregation for targeted marketing.",
     technology: [
       "React.js",
       "TypeScript",
@@ -49,10 +49,10 @@ const projects = [
     git: "https://github.com/shekhar-2410/Tracker_App",
   },
   {
-    name: "Bio Organics",
+    name: "Chemical Solutions Platform",
     role: "Software Engineer",
     description:
-      "Bio Organics offers a platform for customers to explore products and connect with the company.",
+      "Chemical Solutions offers a platform for customers to explore products and connect with the company.",
     technology: [
       "React.js",
       "Bootstrap",

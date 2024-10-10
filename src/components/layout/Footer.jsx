@@ -31,7 +31,7 @@ const Footer = () => {
       >
         <Box mb={{ base: "5%", md: "0%" }}>
           <RouterLink to="/">
-          <Image src="/logo.svg" alt="logo" width="42px" />
+          <Image src="/logo.svg" alt="logo" width="45px" />
           </RouterLink>
         </Box>
         <Box textAlign={"center"} paddingLeft={{ base: "0%", md: "17%" }}>

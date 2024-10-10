@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Box, Text, Heading, Image } from "@chakra-ui/react";
+import { Box, Text, Heading, Image, HStack } from "@chakra-ui/react";
 import { TypeAnimation } from "react-type-animation"; // Named import
 import header_img from "../../assets/header-img.svg";
 import "../../style/About.css";
+import hello from "../../assets/hello.png"
 export const Aboutsection = () => {
   return (
     <Box
@@ -20,7 +21,10 @@ export const Aboutsection = () => {
       {/* Left Side with Text and Typing Effect */}
       <Box flex="1" mr={{ base: 0, md: 10 }} mb={{ base: 8, md: 0 }}>
         <Heading as="h2" size="xl" mb={4} color={"gray.200"}>
-          Hello!
+          <HStack> 
+            <Text> Hello</Text>
+            <Image width={'80px'} loading="lazy" src={hello} alt="img"/>
+          </HStack>
         </Heading>
         <Text fontSize="27px" mb={4} color={"gray.200"}>
           I’m{" "}
@@ -67,6 +71,7 @@ export const Aboutsection = () => {
           borderRadius="full"
           boxSize="400px"
           className="image-animation"
+          loading="lazy"
         />
       </Box>
     </Box>

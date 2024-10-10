@@ -34,7 +34,7 @@ const Resume = () => {
             </Box>
             <Button
               colorScheme={"blue"}
-              onClick={() => window.open("/Shekhar_Suman-Resume.pdf", "_blank")}
+              onClick={() => window.open("/resume.pdf", "_blank")}
             >
               Download Resume
             </Button>

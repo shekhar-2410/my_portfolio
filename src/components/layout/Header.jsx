@@ -56,7 +56,7 @@ const Header = () => {
         px={{ base: 6, md: 14 }}
       >
         <RouterLink to="/">
-          <Image src="/logo.svg" alt="logo" width="42px" />
+          <Image src="/logo.svg" alt="logo" width="45px" />
         </RouterLink>
 
         <Stack
